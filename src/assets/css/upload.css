@@ -1,0 +1,37 @@
+.videoUpload__main {
+    align-items: center;
+}
+
+.videoUpload__Videoform {
+    display: flex;
+    margin: 20px;
+}
+
+.videoUpload__main > h2 {
+    text-align: center;
+    margin: 30px;
+    font-weight: normal;
+}
+
+.videoUpload__input {
+    margin-right: 50px;
+}
+
+.videoUpload__register > select {
+    border-color: lightgray;
+    width: 100%;
+    background-color: inherit;
+    border-radius: 2px;
+    height: 50px;
+}
+
+.videoUpload__register > select:hover {
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.videoUpload__register > select:active {
+    border: 2px solid blueviolet;
+    border-radius: 2px;
+}
+

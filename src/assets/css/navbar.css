@@ -1,0 +1,63 @@
+.navbar {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.navbar__logo {
+    height: 2.5em;
+}
+
+.navbar__left {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.navbar__menu {
+    margin-right: 20px;
+}
+
+.navbar__middle {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.navbar__middle > input {
+    width: auto !important;
+    height: auto !important;
+}
+
+.navbar__search {
+    width: auto;
+    height: auto;
+}
+
+.navbar__search__btn {
+    margin-top: -5px !important;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__notification {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar__profile {
+    border-radius: 50%;
+}
+
+.harshit_test_2{
+    color:red;
+    padding:30px;
+}
